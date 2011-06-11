@@ -1,0 +1,13 @@
+The aim of this project is to create a replacement library for the original Stanford version which is only available for windows and mac but not for *nix users.
+
+I think it is really awesome that Stanford makes the course available free of charge to anyone who is interested and owns either a mac or a windows box and I feel left out being a linux guy.
+The libraries on the course website are compiled and the source files are not available so the only thing I can do if I want to do the course is to create my own version of the library. Luckily the header files are available and there is a good description of what is doing what.
+
+This is the link to the course website: http://see.stanford.edu/see/courses.aspx
+It is called Programming Abstractions, CS106B
+
+The implementation here is a work in progress and it is far from being complete. So far I only managed to do three of the files which is just enough to do the very first assignment.
+
+If you feel you want to help out just let me know. Comments, suggestions, bug reports and contributions are welcome.
+
+
