@@ -1,6 +1,35 @@
 #include <iostream>
-
+#include <sstream>
 using namespace std;
+
+
+/*
+ * Function: GetLine
+ * Usage: s = GetLine();
+ * ---------------------
+ * GetLine reads a line of text from standard input and returns
+ * the line as a string.  The newline character that terminates
+ * the input is not stored as part of the string that is returnd
+ */
+ 
+
+
+string GetLine()
+{
+  string returnString;
+  while (true)
+  {
+    getline(cin,returnString);
+    if (!cin.fail()) break;
+    else
+     {
+       returnString="";
+       cin.clear();
+     }
+  }	
+return returnString;
+}
+
 
 
 /*
@@ -98,30 +127,4 @@ double GetReal()
    }
 }
 
-/*
- * Function: GetLine
- * Usage: s = GetLine();
- * ---------------------
- * GetLine reads a line of text from standard input and returns
- * the line as a string.  The newline character that terminates
- * the input is not stored as part of the string that is returnd
- */
- 
-
-
-string GetLine()
-{
-  string returnString;
-  while (true)
-  {
-    getline(cin,returnString);
-    if (!cin.fail()) break;
-    else
-     {
-       returnString="";
-       cin.clear();
-     }
-  }	
-return returnString;
-}
 
